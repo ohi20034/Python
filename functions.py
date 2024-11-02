@@ -102,3 +102,20 @@ def apply_function(func, value):
 
 # Calling apply_function with a lambda that squares its input
 print(apply_function(lambda x: x ** 2, 5))  # Output: 25
+
+
+# Define a function named 'square' that takes one parameter 'a'
+def square(a):
+    return a * a  # Returns the square of 'a' (i.e., a multiplied by itself)
+
+# Call the 'square' function with the argument 5 and store the result in 'result'
+result = square(5)
+
+# Print the result of the function call
+print(result)  # Output: 25 (since 5*5 = 25)
+
+# Define a lambda function that takes one parameter 'a' and returns the square of 'a'
+f = lambda a: a * a
+
+# Call the lambda function with the argument 7 and print the result
+print(f(7))  # Output: 49 (since 7*7 = 49)
